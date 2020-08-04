@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "homepage": "http://68.183.25.24/ssr",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-snap": "^1.23.0",
+    "react-snapshot": "^1.3.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "react-snap",
+    "eject": "react-scripts eject"
+  }
+}
